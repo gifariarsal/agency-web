@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import logo from '../assets/logo.png';
+import { logo } from '../assets';
 import { Link } from 'react-scroll';
 import { navItems } from '../constant';
 import { FaXmark, FaBars } from 'react-icons/fa6';
@@ -61,7 +61,7 @@ const Navbar = () => {
               Login
             </a>
             <button className="bg-brandPrimary text-white py-2 px-4 transition-all duration-300 rounded hover:bg-neutralDGrey">
-              Sign up
+              Register
             </button>
           </div>
           <div className="md:hidden">

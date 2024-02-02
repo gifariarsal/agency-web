@@ -1,6 +1,6 @@
 import React from 'react';
 import { Carousel } from 'flowbite-react';
-import hero1 from '../assets/hero1.png';
+import { hero1 } from '../assets';
 
 const Home = () => {
   return (
@@ -22,7 +22,7 @@ const Home = () => {
                 Where to grow your business as a photographer: site or social
                 media?
               </p>
-              <button className='btn-primary'>Register</button>
+              <button className="btn-primary">Register</button>
             </div>
           </div>
           <div className="my-28 md:my-8 py-12 flex flex-col md:flex-row-reverse items-center justify-between gap-12">
@@ -40,7 +40,7 @@ const Home = () => {
                 Where to grow your business as a photographer: site or social
                 media?
               </p>
-              <button className='btn-primary'>Register</button>
+              <button className="btn-primary">Register</button>
             </div>
           </div>
           <div className="my-28 md:my-8 py-12 flex flex-col md:flex-row-reverse items-center justify-between gap-12">
@@ -58,7 +58,7 @@ const Home = () => {
                 Where to grow your business as a photographer: site or social
                 media?
               </p>
-              <button className='btn-primary'>Register</button>
+              <button className="btn-primary">Register</button>
             </div>
           </div>
         </Carousel>
