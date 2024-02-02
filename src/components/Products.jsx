@@ -1,6 +1,7 @@
 import React from 'react';
 import { productImg, commentImg } from '../assets';
 import { company } from '../constant';
+import { FaArrowRightLong } from 'react-icons/fa6';
 
 const Products = () => {
   return (
@@ -63,8 +64,11 @@ const Products = () => {
                       </div>
                     );
                   })}
-                  <div>
-                    <a href="/" className='font-bold text-brandPrimary hover:underline'>Meet all customers</a>
+                  <div className="flex font-bold items-center gap-2 text-brandPrimary hover:underline">
+                    <a href="/">
+                      Meet all customers
+                    </a>
+                    <FaArrowRightLong size={20} />
                   </div>
                 </div>
               </div>

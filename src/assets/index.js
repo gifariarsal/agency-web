@@ -16,6 +16,9 @@ import members from './members.png';
 import payments from './payments.png';
 import productImg from './productImg.png';
 import commentImg from './commentImg.png';
+import blogImg1 from './blogImg1.png';
+import blogImg2 from './blogImg2.png';
+import blogImg3 from './blogImg3.png';
 
 export {
   aboutImg,
@@ -36,4 +39,7 @@ export {
   payments,
   productImg,
   commentImg,
+  blogImg1,
+  blogImg2,
+  blogImg3,
 };

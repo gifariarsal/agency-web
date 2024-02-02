@@ -1,5 +1,8 @@
 import {
   associations,
+  blogImg1,
+  blogImg2,
+  blogImg3,
   company1,
   company2,
   company3,
@@ -24,16 +27,16 @@ export const navItems = [
     path: 'about',
   },
   {
-    name: 'Product',
-    path: 'product',
+    name: 'Products',
+    path: 'products',
   },
   {
     name: 'Testimonial',
     path: 'testimonial',
   },
   {
-    name: 'FAQ',
-    path: 'faq',
+    name: 'Blogs',
+    path: 'blogs',
   },
 ];
 
@@ -82,5 +85,24 @@ export const company = [
   {
     img: company6,
     alt: 'company6',
+  },
+];
+
+export const blogs = [
+  {
+    id: 1,
+    title: 'Creating Streamlined Safeguarding Processes with OneRen',
+    img: blogImg1,
+  },
+  {
+    id: 2,
+    title:
+      'What are your safeguarding responsibilities and how can you manage them?',
+    img: blogImg2,
+  },
+  {
+    id: 3,
+    title: 'Revamping the Membership Model with Triathlon Australia',
+    img: blogImg3,
   },
 ];
