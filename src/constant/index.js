@@ -6,7 +6,6 @@ import {
   company4,
   company5,
   company6,
-  company7,
   groups,
   membership,
 } from '../assets';
@@ -83,9 +82,5 @@ export const company = [
   {
     img: company6,
     alt: 'company6',
-  },
-  {
-    img: company7,
-    alt: 'company7',
   },
 ];

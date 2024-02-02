@@ -6,7 +6,6 @@ import company3 from './company3.png';
 import company4 from './company4.png';
 import company5 from './company5.png';
 import company6 from './company6.png';
-import company7 from './company7.png';
 import groups from './groups.png';
 import hero1 from './hero1.png';
 import logo from './logo.png';
@@ -15,6 +14,8 @@ import clubs from './clubs.png';
 import events from './events.png';
 import members from './members.png';
 import payments from './payments.png';
+import productImg from './productImg.png';
+import commentImg from './commentImg.png';
 
 export {
   aboutImg,
@@ -25,7 +26,6 @@ export {
   company4,
   company5,
   company6,
-  company7,
   groups,
   hero1,
   logo,
@@ -34,4 +34,6 @@ export {
   events,
   members,
   payments,
+  productImg,
+  commentImg,
 };

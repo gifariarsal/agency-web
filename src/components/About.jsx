@@ -15,6 +15,7 @@ const About = () => {
               The unseen of spending three years at Pixelgrade
             </h2>
             <p className="md:w-3/4 text-sm text-neutralGrey mb-8">
+              {' '}
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit
               amet justo ipsum. Sed accumsan quam vitae est varius fringilla.
               Pellentesque placerat vestibulum lorem sed porta. Nullam mattis
@@ -35,6 +36,7 @@ const About = () => {
                 business reinvent itself
               </span>
             </h2>
+            <p>We reached here with our hard work and dedication</p>
           </div>
           <div className="md:w-1/2 mx-auto flex sm:flex-row flex-col sm:items-center justify-around gap-12">
             <div className="space-y-8">
