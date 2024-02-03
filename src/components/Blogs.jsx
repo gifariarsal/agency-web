@@ -4,7 +4,10 @@ import { FaArrowRightLong } from 'react-icons/fa6';
 
 const Blogs = () => {
   return (
-    <section className="px-4 lg:px-14 max-w-screen-2xl mx-auto my-12">
+    <section
+      id="blogs"
+      className="px-4 lg:px-14 max-w-screen-2xl mx-auto my-12"
+    >
       <div className="text-center md:w-1/2 mx-auto">
         <h2 className="text-4xl text-neutralDGrey font-semibold mb-4">
           Caring is the new marketing

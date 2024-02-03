@@ -31,8 +31,8 @@ export const navItems = [
     path: 'products',
   },
   {
-    name: 'Testimonial',
-    path: 'testimonial',
+    name: 'Testimonials',
+    path: 'testimonials',
   },
   {
     name: 'Blogs',

@@ -47,7 +47,7 @@ const Navbar = () => {
                 spy={true}
                 smooth={true}
                 offset={-100}
-                className="block text-base text-grey900 hover:text-brandPrimary first:font-medium"
+                className="block text-base text-grey900 hover:text-brandPrimary font-medium cursor-pointer"
               >
                 {name}
               </Link>
@@ -89,7 +89,8 @@ const Navbar = () => {
               spy={true}
               smooth={true}
               offset={-100}
-              className="block text-base text-white hover:text-grey900 first:font-medium"
+              className="block text-base text-white hover:text-grey900 first:font-medium cursor-pointer"
+              onClick={toggleMenu}
             >
               {name}
             </Link>
