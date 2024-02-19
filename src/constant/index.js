@@ -1,4 +1,5 @@
 import {
+  hero1,
   associations,
   blogImg1,
   blogImg2,
@@ -106,3 +107,30 @@ export const blogs = [
     img: blogImg3,
   },
 ];
+
+export const carousel = [
+  {
+    id: 1,
+    img: hero1,
+    alt: 'hero1',
+    title: 'Lesson and insight',
+    span: 'from 8 years',
+    desc: 'Where to grow your business as a photographer: site or social media?',
+  },
+  {
+    id: 2,
+    img: hero1,
+    alt: 'hero1',
+    title: 'Lesson and insight',
+    span: 'from 8 years',
+    desc: 'Where to grow your business as a photographer: site or social media?',
+  },
+  {
+    id: 3,
+    img: hero1,
+    alt: 'hero1',
+    title: 'Lesson and insight',
+    span: 'from 8 years',
+    desc: 'Where to grow your business as a photographer: site or social media?',
+  },
+]
